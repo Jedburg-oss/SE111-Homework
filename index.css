@@ -1,0 +1,15 @@
+.firsth {
+    color: blue;
+    border-color: blueviolet;
+    border-radius: 30%;
+    padding-left: 220px;
+}
+.firstp {
+    color: red;
+    border-color: aqua;
+    border-style: dotted;
+}
+
+body {
+    background-color: antiquewhite;
+}
