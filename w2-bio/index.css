@@ -1,0 +1,39 @@
+body 
+{
+background-color:beige;
+}
+.island
+{
+    width: 50%;
+    height: 50%;
+}
+.anime
+{
+    padding-top: 40px;
+    width: 25%;
+    height: 25%;
+}
+p
+{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+.schooling
+{
+    font-family: sans-serif;
+}
+ol
+{
+    font-size: large;
+}
+ul
+{
+    font-size: large;
+}
+footer
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
