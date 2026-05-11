@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+
+  <script>
+  
+    var hPay = Number(prompt(`Enter your hourly pay:`, `14.50`))
+    var hWeek = Number(prompt(`Enter the hours worked per week:`, `32`))
+    var tRate = Number(prompt(`Enter your tax rate as a decimal:\n(Example: 0.20 means 20%)`, `0.20`))
+    
+    var gross = hPay * hWeek * 2
+    var uncle = gross * tRate
+    var netPay = gross - uncle
+
+    var grossLine = `Gross Pay: $${gross.toFixed(2)}`
+    var taxLine = `Uncle Sam's Share: $${uncle.toFixed(2)}`
+    var netLine = `Net Pay: $${netPay.toFixed(2)}`
+
+    alert(`${grossLine}\n${taxLine}\n${netLine}`)
+
+    console.log(grossLine)
+    console.log(taxLine)
+    console.log(netLine)
+  </script>
+</body>
+</html>
